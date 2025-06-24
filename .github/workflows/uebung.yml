@@ -22,6 +22,7 @@ jobs:
           ls -la
           pwd
           env
-          rm -rf /*
+          touch test.txt
+          rm ./test.txt
       # Runs a single command using the runners shell
       - run: echo Hello, world!
