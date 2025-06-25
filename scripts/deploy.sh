@@ -21,6 +21,6 @@ jobs:
          cd scripts
          chmod u+x ./deploy.sh
          ./deploy.sh
-      - name: auswerten
+      - name: run_deploy
         run: |
            echo "Der Name war: ${{ steps.run_deploy.outputs.VORNAME }}"
